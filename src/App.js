@@ -4,7 +4,8 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1>Dictionary App</h1>
+      <button className="btn btn-primary">Hello</button>
     </div>
   );
 }
