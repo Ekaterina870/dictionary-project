@@ -1,0 +1,13 @@
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.Results section {
+  background-color: #ddd;
+}
+.Phonetics {
+  font-size: 25px;
+
+  opacity: 0.7;
+}
