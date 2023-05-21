@@ -22,3 +22,11 @@
   background-color: rgb(219, 119, 80);
   border-radius: 10px;
 }
+@media (max-width: 720px) {
+  .Dictionary .input {
+    width: 100%;
+  }
+  .Dictionary .button {
+    width: 30%;
+  }
+}

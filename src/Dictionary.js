@@ -3,16 +3,19 @@ import axios from "axios";
 import "./Dictionary.css";
 import Results from "./Results";
 import Photos from "./Photos";
+
 export default function Dictionary() {
   let [keyword, setKeyword] = useState(" ");
   let [results, setResults] = useState(null);
   let [photos, setPhotos] = useState(null);
+
   function handleResponse(response) {
     setResults(response.data);
   }
   function handlePicturesResponse(response) {
     setPhotos(response.data.photos);
   }
+
   function search(event) {
     event.preventDefault();
 
